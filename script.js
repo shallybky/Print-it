@@ -81,5 +81,3 @@ function updateSlide(index) {
     img.src = "image/" + slides[index].image;
     tagline.innerHTML = slides[index]["tagLine" + (index + 1)];
 }
-
-http://localhost:5678/api-docs/
